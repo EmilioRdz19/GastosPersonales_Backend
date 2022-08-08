@@ -14,8 +14,9 @@ mongoose.connect(`${process.env.MONGODB_URI}`)
   .catch((err) => {
     console.log('Error al conectar a la base de datos', err);
     process.exit();
-  });
 
+  });
+//conexion de mongo
 
 
 const corsOptions = {
