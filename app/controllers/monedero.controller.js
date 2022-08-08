@@ -3,6 +3,7 @@ const Gasto = require("../models/gasto.model");
 const Ingreso = require("../models/ingreso.model");
 const mongoose = require("mongoose");
 //Creamos una clase que devuelva una función que se ejecute cuando se llame al método get de la ruta /monedero
+//funucionalidades del monedero
 class MonederoController {
     constructor() {
         this.listarGastoseIngresos = this.listarGastoseIngresos.bind(this);
