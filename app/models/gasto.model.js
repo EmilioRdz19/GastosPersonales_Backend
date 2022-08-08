@@ -1,5 +1,6 @@
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
+//arreglo de mensajes de error en las categorias
 
 let monederoSchema = new Schema({
     periodo: { type: String, required: [true , 'El periodo es necesario'] },
