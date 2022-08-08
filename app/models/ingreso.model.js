@@ -1,6 +1,10 @@
+// llamamos la expresion en el caso es mongo
+
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 
+
+// funcionalidad de respuestas ocasionadas por algun error
 let monederoSchema = new Schema({
     periodo: { type: String, required: [true, 'El periodo es necesario'] },
     categoria: {

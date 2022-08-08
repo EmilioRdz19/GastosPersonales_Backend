@@ -1,7 +1,7 @@
 const Usuario = require("../models/usuario.model");
 const mongoose = require("mongoose");
 const controlador = {
-
+//funciones de usuarios
     obtenerUsuario(req, res) {
         try {
             const busqueda = async () => {

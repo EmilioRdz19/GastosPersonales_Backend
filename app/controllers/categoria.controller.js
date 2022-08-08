@@ -22,7 +22,7 @@ class CategoriaController {
         }
     }
 
-
+//funcion de agregar la categoria de gasto
     agregarCategoria(req, res) {
         try {
             const { nombre, descripcion } = req.body;
@@ -43,7 +43,7 @@ class CategoriaController {
             res.status(500).json({ msg: "Error al guardar" });
         }
     }
-
+//funcion de eliminacion de categoria 
     eliminarCategoria(req, res) {
         const val_id = req.params.id;
 
