@@ -1,6 +1,8 @@
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 
+//validando valores, ingreso de respuestas
+
 let monederoSchema = new Schema({
     gastos: [{
         type: Schema.Types.ObjectId, ref: 'Gasto'
